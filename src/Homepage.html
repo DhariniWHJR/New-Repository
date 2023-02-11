@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-Pop-Homepage</title>
+   
+    </head>
+  <!--Inline style attributes for additional pages-->
+    <style>
+        body {
+    background: linear-gradient(to right, #CFADE9,#CB99F1,  #8E18E7);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .container {
+   width: 80vw;
+   max-width: 80%;
+   background-color: beige;
+   height: 70vh;
+   box-shadow: 0 0 5px 4px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   text-align: center;
+}
+
+.coding {
+   font-size: large;
+   font-weight: bold;
+   box-shadow: 0 6px 12px -2px rgba(#F27813, .15);
+   background: green;
+   color: black;
+   border-radius: 4px;
+   padding: 10px;
+   color: beige;
+   margin: 6px;
+   cursor: pointer;
+}
+.music{
+    font-size: large;
+   font-weight: bold;
+   box-shadow: 0 6px 12px -2px rgba(#F27813, .15);
+   background: violet;
+   color: black;
+   border-radius: 4px;
+   padding: 10px;
+   color: beige;
+   margin: 6px;
+   cursor: pointer;
+}
+.arts{
+    font-size: large;
+   font-weight: bold;
+   box-shadow: 0 6px 12px -2px rgba(#F27813, .15);
+   background: blue;
+   color: black;
+   border-radius: 4px;
+   padding: 10px;
+   color: beige;
+   margin: 6px;
+   cursor: pointer;
+}
+    </style>
+    <body> 
+        <div class="container">
+            <h1>Welcome to Quiz-Pop</h1>
+            <img src=".js/quiz2.jpg" alt="Ready to Ace the Quiz?">
+            <p>Please Enter your Name in the input field below</p>
+            <input type="text"></input>
+            <h3>Choose one of the topics below to start the quiz</h3>
+          <!--Simple Homepage showing all the buttons of topics available-->
+            <a target='_self' href="index.html">
+          <button class="music" >Music-Quiz</button></a>
+          <button class="coding">Coding-Quiz</button>
+          <button class="arts">Modern Arts-Quiz</button>
+          
+            </div>
+        </div>
+     </body>
